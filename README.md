@@ -23,17 +23,19 @@ Get a random dog image
 
 ---
 
-### BoredAPI
-Get a random activity suggestion  
-`https://www.boredapi.com/api/activity`  
-- Display the `"activity"` text inside `<p id="bored-output">`.
-
----
-
 ### AdviceSlip API
 Get random advice  
 `https://api.adviceslip.com/advice`  
 - Display the `"slip.advice"` inside `<blockquote id="advice-output">`.
+
+---
+
+### Joke API
+Get random advice  
+`https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single`  
+- Display the `"slip.advice"` inside `<blockquote id="advice-output">`.
+
+
 
 ## Requirements
 - Use `.then()` **or** `async/await`.
